@@ -1,0 +1,12 @@
+<div
+  class="block"
+  [ngClass]="{ red: currentValue1 < 0, blue: currentValue1 > 0 }"
+>
+  {{ currentValue1 }}
+</div>
+<div
+  class="block"
+  [ngClass]="{ red: currentValue2 < 0, blue: currentValue2 > 0 }"
+>
+  {{ currentValue2 }}
+</div>

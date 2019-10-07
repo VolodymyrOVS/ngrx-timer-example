@@ -1,0 +1,9 @@
+<div>
+  <button (click)="onStartTimerFunc()">Start</button>
+  <button (click)="onStopFunc()">Stop</button>
+  <button (click)="onResetFunc()">Reset</button>
+</div>
+<app-render-component
+  [currentValue1]="(myState | async).firstValue"
+  [currentValue2]="(myState | async).secondValue"
+></app-render-component>
